@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+header {
+    /* width: 100vw; */
+    background-color: #fff;
+    padding: 0 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 16px rgba(0 0 0/40%);
+    height: 70px;
+}
+
+header img {
+    width: 50px;
+}
+
+header i {
+    font-size: 24px;
+}
+
+.banner {
+    background-image: url("hit.jpg");
+    background-size: cover;
+    height: 640px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+/* .list-course {
+    padding: 48px 0 0;
+} */
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-course h1 {
+    margin-bottom: 40px;
+}
+
+.list-course_item {
+    padding: 0 64px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-item {
+    border: 3px solid #f06c25;
+    padding: 0px 32px 20px 26px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+.course-image {
+    margin-right: 24px;
+}
+
+.course-image img {
+    width: 100px;
+}
+
+h2,
+p {
+    margin-bottom: 12px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.hit-event {
+    /* background-color: lightpink; */
+    padding: 60px 64px;
+    /* color: #fff; */
+}
+
+.hit-event-item {
+    /* margin-top: 60px; */
+    width: 1350px;
+    display: flex;
+}
+
+.hit-event img {
+    width: 40%;
+    border-radius: 40px;
+    margin-left: 60px;
+}
+
+h1 {
+    background-color: red;
+    /* margin-bottom: 60px; */
+    padding: 12px 0;
+    color: #fff;
+
+}
+
+.event-conetnt {
+    margin-left: 36px;
+    padding-right: 8-0px;
+}
+
+.event-conetnt p {
+    line-height: 40px;
+}
+
+.event_2 {
+    margin-top: 60px;
+}
+
+.event_2 .event-conetnt {
+    margin-left: 60px;
+}
+
+footer {
+    background-color: #f06c25;
+    height: 280px;
+    padding: 30px 0;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    width: 98.9vw; */
+}
+
+footer>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+}
+
+footer>div:nth-child(1) img {
+    width: 60px;
+    margin-bottom: 40px;
+}
+
+a,
+span {
+    display: block;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none !important;
+    text-align: center;
+}
